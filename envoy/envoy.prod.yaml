@@ -63,10 +63,10 @@ static_resources:
                   address:
                     socket_address:
                       {
-                        address: chat-node-server.default.svc.cluster.local,
+                        address: chat-app-server-service.default.svc.cluster.local,
                         port_value: 50051,
                       }
-                      # { address: chat-node-server, port_value: 50051 }
+                      # { address: chat-app-server-service, port_value: 50051 }
       # health check
       health_checks:
         - timeout: 1s
